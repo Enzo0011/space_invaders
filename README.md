@@ -46,7 +46,7 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 3. **Compile the TypeScript files:**
 
     ```sh
-    npx tsc
+    npm run build
     ```
 
 ### Running the Project
@@ -54,14 +54,7 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 To run the project, execute the compiled `server.js` file:
 
     ```sh
-    node dist/server.js
-    ```
-
-## Development
-During development, you may want to continuously compile TypeScript files. You can do this by running:
-
-    ```sh
-    npx tsc --watch
+    npm start
     ```
 
 ## Project Details
