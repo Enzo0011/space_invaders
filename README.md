@@ -53,9 +53,9 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 
 To run the project, execute the compiled `server.js` file:
 
-    ```sh
-    npm start
-    ```
+```sh
+npm start
+```
 
 ## Project Details
 index.html: The main HTML file to load the game.
